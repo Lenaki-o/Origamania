@@ -97,7 +97,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 20px auto;
+    margin: 10vh auto;
   }
  /*ok */
   #form-cont > * {
@@ -144,7 +144,7 @@
   footer a {
     color:var(--brown-color);
   }
-/*ok */
+
   img.example {
     width: 40px;
     height: 40px;
@@ -153,7 +153,7 @@
     margin:12px 20px auto 50px;
     
   }
-  /*ok*/
+ 
   .hide {
     display: none;
     width: 600px;
@@ -163,7 +163,7 @@
     left: 30%;
     
   }
- /*ok*/
+ 
   @media screen and (min-width:701px) {
     .example:hover + .hide {
       display: block;
@@ -201,7 +201,10 @@
       text-align: center;
 
     }
-
+    abbr {
+      text-decoration: none;
+      font-style:italic;
+    }
     img.example {
       display: block;
       width: 200px;
@@ -209,9 +212,8 @@
       border-radius: 10px;
       margin: 0px auto;
     }
- 
   }
-  /*ok*/
+ 
   @media screen and (max-width:375px) {
     #nav-bar ul {
     flex-direction: column;
